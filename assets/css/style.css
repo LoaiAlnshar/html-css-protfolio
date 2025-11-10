@@ -1,0 +1,125 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #0f172a;
+}
+
+footer {
+    height: 30vh;
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+.sizeBtn {
+  width: 200px;
+  margin-top: 5px;
+  background-color: #0f172a;
+  color: #02ff9e;
+  border: solid 1px #02ff9e;
+}
+
+ .sizeBtn:hover {
+  background-color: #02ff9e;
+  color: #0f172a;
+  transition: 0.3s;
+}
+
+.info {
+  color: #a8bcd8;
+}
+
+.info .myName {
+  color: #ffff;
+}
+
+.navbar-brand{
+  color: #00cc7a;
+}
+
+.navbar-brand:hover{
+  color: #02ff9e;
+  text-shadow: 0 0 8px #02ff9e, 0 0 20px rgba(2,255,158,0.45);
+  transform: translateY(-2px);
+  transition: color 0.25s ease, transform 0.25s ease, text-shadow 0.35s ease, box-shadow 0.35s ease;
+}
+
+.navSeting ul li a {
+  color: #e2e8f0;
+}
+
+.navSeting ul li a:hover {
+  color: #02ff9e;
+  text-shadow: 0 0 8px #02ff9e, 0 0 20px rgba(2,255,158,0.45);
+  transform: translateY(-2px);
+  transition: color 0.25s ease, transform 0.25s ease, text-shadow 0.35s ease, box-shadow 0.35s ease;
+}
+
+.loai{
+  border-radius: 50%;
+  box-shadow: 0 0 15px #02ff9e, 0 0 30px rgba(2,255,158,0.45);
+}
+
+.loai:hover{
+  box-shadow: 0 0 25px #02ff9e, 0 0 50px rgba(2,255,158,0.75);
+  transition: box-shadow 0.35s ease;
+}
+
+.mySkillsSeting {
+  color: #a8bcd8;
+  height: 40vh;
+}
+
+.centerSize {
+  width: 85%;
+}
+
+.mySkillsSeting h2,h3 {
+  color: #ffff;
+}
+
+.progress{
+  background-color: #a8bcd8;
+}
+.progress-bar {
+  background-color: #0f172a;
+  border: solid 1px #02ff9e;
+  border-radius: 5px 0 0 5px;
+  color: #02ff9e;
+}
+
+.contactSeting {
+  height: 30vh;
+  color: #ffffff;
+
+}
+
+.contactSeting .btn-primary {
+  background-color: #0f172a;
+  color: #02ff9e;
+  border: solid 1px #02ff9e;
+}
+
+.contactSeting .btn-primary:hover {
+  background-color: #02ff9e;
+  color: #0f172a;
+  transition: 0.3s;
+}
+
+.btnInfoSetting {
+  filter: invert(62%) sepia(83%) saturate(749%) hue-rotate(120deg) brightness(95%) contrast(90%);
+}
+
+.navbar-toggler {
+  border: solid 1px #02ff9e;
+  border-radius: 5px;
+}
+
+@media (max-width: 541px)
+{
+  .infoSetting{
+    margin-bottom: 30px;
+  }
+  
+}
